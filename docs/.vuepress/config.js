@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Mediumish',
-  base: '/vuepress-theme-mediumish/',
+  base: '/My-theme-mediumish/',
   description: 'Blog example for Mediumish theme with VuePress',
   logo: './assets/img/logo.png',
   theme: require.resolve('../../'),
@@ -19,6 +19,19 @@ module.exports = {
         linktext: 'Follow',
       },
     ],
+    wallet_address: [
+      {
+        name: 'btc',
+        wallet_address: '18btPsR3tR1S8nRuQJmH2TEnsoun8DVypr',
+        wallet_qrcode: '/assets/img/btc.jpg'
+      },
+      {
+        name: 'eth',
+        wallet_address: '18btPsR3tR1S8nRuQJmH2TEnsoun8DVypr',
+        wallet_qrcode: '/assets/img/eth.jpg'
+      },
+      // 可以添加其他加密货币的地址配置
+    ],
     footer: {
       contact: [
         {
@@ -27,11 +40,11 @@ module.exports = {
         },
         {
           type: 'facebook',
-          link: '#',
+          link: 'https://www.facebook.com/profile.php?id=61550291663330',
         },
         {
           type: 'github',
-          link: 'https://github.com/wowthemesnet/mediumish-vuepress-blog-theme',
+          link: 'https://github.com/zoizupas/StudyAbroad',
         },
         {
           type: 'gitlab',
@@ -39,11 +52,11 @@ module.exports = {
         },
         {
           type: 'instagram',
-          link: '#',
+          link: 'https://instagram.com/rt_novia',
         },
         {
           type: 'linkedin',
-          link: '#',
+          link: 'https://www.linkedin.com/in/isumey/',
         },
         {
           type: 'mail',
@@ -59,7 +72,7 @@ module.exports = {
         },
         {
           type: 'twitter',
-          link: 'https://twitter.com/wowthemesnet',
+          link: '#',
         },
         {
           type: 'web',
@@ -72,8 +85,8 @@ module.exports = {
           link: 'https://bootstrapstarter.com/license/',
         },
         {
-          text: 'Made with Mediumish - free Vuepress theme',
-          link: 'https://bootstrapstarter.com/bootstrap-templates/vuepress-theme-mediumish/',
+          text: '亞歷山大',
+          link: 'https://hackmd.io/7yJDy0rzRYudjlHUyZDqRw?edit',
         },
       ],
     },
@@ -82,14 +95,14 @@ module.exports = {
       hostname: 'https://github.com/wowthemesnet/vuepress-theme-mediumish/'
     },
     comment: {
-      service: 'disqus',
+      service: 'gmail',
       shortname: 'demowebsite',
     },
     newsletter: {
-      endpoint: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&id=8c3d2d214b'
+      endpoint: 'https://hackmd.io/7yJDy0rzRYudjlHUyZDqRw?edit'
     },
     feed: {
-      canonical_base: 'https://github.com/wowthemesnet/vuepress-theme-mediumish/',
+      canonical_base: 'https://hackmd.io/7yJDy0rzRYudjlHUyZDqRw?edit',
     },
     smoothScroll: true
   },
