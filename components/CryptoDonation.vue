@@ -1,20 +1,25 @@
 <template>
   <div class="crypto-donation">
-    <div class="wallet-list"></div>
     <div class="qr-code-list">
-      <div
-        v-for="wallet in walletAddresses"
-        :key="wallet.name"
-        class="qr-code-item"
-      >
-        <div class="wallet-label">{{ wallet.name.toUpperCase() }}</div>
-        <div class="wallet-address">{{ wallet.wallet_address }}</div>
-        <img
-          :src="wallet.wallet_qrcode"
-          :alt="wallet.wallet_address"
-          :width="qrSize"
-          :height="qrSize"
-        />
+      <div class="qr-code-row">
+        <div
+          v-for="wallet in walletAddresses"
+          :key="wallet.name"
+          class="qr-code-item"
+        >
+          <div class="qr-code-wrapper">
+            <img
+              :src="wallet.wallet_qrcode"
+              :alt="wallet.wallet_address"
+              :width="qrSize"
+              :height="qrSize"
+            />
+            <div class="wallet-info">
+              <div class="wallet-label">{{ wallet.name.toUpperCase() }}</div>
+              <div class="wallet-address">{{ wallet.wallet_address }}</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -49,31 +54,24 @@ export default {
   padding 20px 0
   text-align center
 
-.wallet-list
-  display flex
-  flex-direction column
-  margin-right 20px
-
-.wallet-item
-  display flex
-  align-items center
-  margin-bottom 10px
-
-.wallet-label
-  font-weight bold
-  margin-right 10px
-
-.wallet-address
-  text-align left
-
 .qr-code-list
   display flex
   flex-direction column
 
-.qr-code-item
+.qr-code-row
   display flex
-  justify-content flex-end
+  justify-content center
+  align-items center
 
-.qr-code-item img
-  margin-left 20px
+.qr-code-item
+  margin 0 10px
+
+.qr-code-wrapper
+  display flex
+  flex-direction column
+  align-items center
+  margin-bottom 20px
+
+.wallet-info
+  text-align center
 </style>

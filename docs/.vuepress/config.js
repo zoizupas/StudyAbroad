@@ -4,6 +4,7 @@ module.exports = {
   description: 'Blog example for Mediumish theme with VuePress',
   logo: './assets/img/logo.png',
   theme: require.resolve('../../'),
+
   themeConfig: {
   authors: [
       {
@@ -19,7 +20,7 @@ module.exports = {
         linktext: 'Follow',
       },
     ],
-    wallet_address: [
+  wallet_address: [
       {
         name: 'btc',
         wallet_address: '18btPsR3tR1S8nRuQJmH2TEnsoun8DVypr',
@@ -30,7 +31,7 @@ module.exports = {
         wallet_address: '18btPsR3tR1S8nRuQJmH2TEnsoun8DVypr',
         wallet_qrcode: '/assets/img/eth.jpg'
       },
-      // 可以添加其他加密货币的地址配置
+      // Add address configurations for other cryptocurrencies
     ],
     footer: {
       contact: [
@@ -52,7 +53,7 @@ module.exports = {
         },
         {
           type: 'instagram',
-          link: 'https://instagram.com/rt_novia',
+          link: 'https://www.instagram.com/',
         },
         {
           type: 'linkedin',
