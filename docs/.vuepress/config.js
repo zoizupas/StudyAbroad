@@ -28,8 +28,13 @@ module.exports = {
       },
       {
         name: 'eth',
-        wallet_address: '18btPsR3tR1S8nRuQJmH2TEnsoun8DVypr',
+        wallet_address: '0x042f174e1405d5f2eac14b33a6d6abe2075f4402',
         wallet_qrcode: '/assets/img/eth.jpg'
+      },
+      {
+        name: 'USDT',
+        wallet_address: 'TCrXf4v8P9L5GoW3DVRu9a9MTSmi7QwqxV',
+        wallet_qrcode: '/assets/img/bch.jpg'
       },
       // Add address configurations for other cryptocurrencies
     ],

@@ -1,6 +1,7 @@
 <template>
   <div class="crypto-donation">
     <div class="qr-code-list">
+      <div class="tip">如果喜歡文章，請抖內我</div>
       <div class="qr-code-row">
         <div
           v-for="wallet in walletAddresses"
@@ -58,6 +59,10 @@ export default {
   display flex
   flex-direction column
 
+.tip
+  text-align center
+  margin-bottom 10px
+
 .qr-code-row
   display flex
   justify-content center
@@ -65,6 +70,7 @@ export default {
 
 .qr-code-item
   margin 0 10px
+  text-align center
 
 .qr-code-wrapper
   display flex
