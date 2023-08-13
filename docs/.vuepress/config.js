@@ -10,13 +10,13 @@ module.exports = {
       {
       name: 'Sal',
       avatar: '/assets/img/sal.jpg',
-      link: 'https://wowthemes.net/donate',
+      link: '',
       linktext: 'Follow',
       },
       {
         name: 'John Doe',
         avatar: '/assets/img/avatar.png',
-        link: 'https://bootstrapstarter.com/',
+        link: '',
         linktext: 'Follow',
       },
     ],
@@ -111,5 +111,10 @@ module.exports = {
       canonical_base: 'https://hackmd.io/7yJDy0rzRYudjlHUyZDqRw?edit',
     },
     smoothScroll: true
+  },
+
+  alias: {
+    '@business_components': './.vuepress/component/business_function'
+
   },
 }

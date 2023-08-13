@@ -11,7 +11,7 @@ module.exports = (themeConfig) => {
     nav: themeConfig.nav || [
       {
         text: 'Business',
-        link: '/',
+        link: '/business/',
       },
       {
         text: 'Blog',
