@@ -64,13 +64,14 @@ export default {
   margin-bottom 10px
 
 .qr-code-row
-  display flex
-  justify-content center
-  align-items center
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 
 .qr-code-item
-  margin 0 10px
-  text-align center
+  margin: 20px;
+  text-align: center;
 
 .qr-code-wrapper
   display flex

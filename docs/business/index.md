@@ -41,24 +41,14 @@ title: Business Home
   </div>
 </template>
 
-<script setup>
-import { ref } from 'vue';
-
-const showImage = ref(false);
-
-const showPrice = () => {
-  showImage.value = true;
-};
-
-const goToFacebook = () => {
-  window.location.href = "https://www.facebook.com/profile.php?id=61550291663330";
-};
-</script>
 
 # Welcome to the Business Section
 
 This is the homepage of our business section. Here, you can find information about our company's products, services, and more.
 
+[Goto Display Page](./display.md)
+
+[To Do AboutUs page](./AboutUs.md)
+
 <MyButton />
 
-[Goto Display Page](./display.md)

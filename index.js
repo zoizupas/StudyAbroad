@@ -10,12 +10,12 @@ module.exports = (themeConfig) => {
     logo: '/assets/img/logo.png',
     nav: themeConfig.nav || [
       {
-        text: 'Business',
-        link: '/business/',
-      },
-      {
         text: 'Blog',
         link: '/',
+      },
+      {
+        text: 'Business',
+        link: '/business/',
       },
       {
         text: 'Tags',

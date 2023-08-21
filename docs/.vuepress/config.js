@@ -10,31 +10,26 @@ module.exports = {
       {
       name: 'Sal',
       avatar: '/assets/img/sal.jpg',
-      link: '',
-      linktext: 'Follow',
+      link: 'https://www.facebook.com/profile.php?id=61550291663330',
+      linktext: '紅色屁眼',
       },
       {
         name: 'John Doe',
         avatar: '/assets/img/avatar.png',
-        link: '',
+        link: 'https://www.facebook.com/profile.php?id=61550291663330',
         linktext: 'Follow',
       },
     ],
   wallet_address: [
       {
-        name: 'btc',
+        name: 'Binance BTC',
         wallet_address: '18btPsR3tR1S8nRuQJmH2TEnsoun8DVypr',
         wallet_qrcode: '/assets/img/btc.jpg'
       },
       {
-        name: 'eth',
-        wallet_address: '0x042f174e1405d5f2eac14b33a6d6abe2075f4402',
-        wallet_qrcode: '/assets/img/eth.jpg'
-      },
-      {
-        name: 'USDT',
-        wallet_address: 'TCrXf4v8P9L5GoW3DVRu9a9MTSmi7QwqxV',
-        wallet_qrcode: '/assets/img/bch.jpg'
+        name: 'Linepay',
+        wallet_address: 'LinePay Qrcode',
+        wallet_qrcode: '/assets/img/linepay.jpg'
       },
       // Add address configurations for other cryptocurrencies
     ],
@@ -113,8 +108,4 @@ module.exports = {
     smoothScroll: true
   },
 
-  alias: {
-    '@business_components': './.vuepress/component/business_function'
-
-  },
 }
