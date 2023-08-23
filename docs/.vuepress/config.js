@@ -27,6 +27,11 @@ module.exports = {
         wallet_qrcode: '/assets/img/btc.jpg'
       },
       {
+        name: 'JKOpay',
+        wallet_address: 'JKOpay Qrcode',
+        wallet_qrcode: '/assets/img/JKOpay.jpg'
+      },
+      {
         name: 'Linepay',
         wallet_address: 'LinePay Qrcode',
         wallet_qrcode: '/assets/img/linepay.jpg'
@@ -107,5 +112,7 @@ module.exports = {
     },
     smoothScroll: true
   },
+
+  
 
 }

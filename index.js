@@ -15,13 +15,14 @@ module.exports = (themeConfig) => {
       },
       {
         text: 'Business',
-        link: '/business/',
+        link: '/_business/',
       },
       {
         text: 'Tags',
         link: '/tag/',
       },
     ],
+
     summary: themeConfig.summary === undefined ? true : themeConfig.summary,
     summaryLength:
       typeof themeConfig.summaryLength === 'number'
@@ -33,6 +34,7 @@ module.exports = (themeConfig) => {
   /**
    * Configure blog plugin
    */
+
   const defaultBlogPluginOptions = {
     directories: [
       {
